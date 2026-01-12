@@ -33,8 +33,12 @@ body {
   overflow: hidden;
 }
 
-.product__image {
+.product__image-disktop {
   width: 100%;
+}
+
+.product__image-mobile {
+  display: none;
 }
 
 .product__card {
@@ -113,5 +117,13 @@ body {
     width: auto;
     grid-template-columns: 1fr;
     margin: 2rem;
+  }
+  .product__image-disktop {
+    display: none;
+  }
+
+  .product__image-mobile {
+    max-width: 100%;
+    display: block;
   }
 }
