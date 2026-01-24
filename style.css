@@ -112,7 +112,7 @@ body {
   width: 1.4rem;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 38.5rem) {
   .product {
     width: auto;
     grid-template-columns: 1fr;
